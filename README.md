@@ -1,16 +1,2 @@
 # masterchess
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A fun chess app built with Flutter featuring an AI opponent powered by DeepSeek. The app lets you play chess while the AI chats with you during the game. This is a work in progress and a cool experiment to blend traditional chess gameplay with conversational AI.

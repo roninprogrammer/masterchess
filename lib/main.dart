@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:masterchess/screens/ChessScreen.dart';
 
-void main() => runApp(const DeepChessApp());
+Future<void> main() async {
+  await dotenv.load();
+  runApp(DeepChessApp());
+}
 
 class DeepChessApp extends StatelessWidget {
   const DeepChessApp({super.key});

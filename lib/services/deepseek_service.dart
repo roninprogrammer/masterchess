@@ -1,11 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class DeepSeekService {
-  static const String apiKey =
-      "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";
-  static const String endpoint =
-      "https://openrouter.ai/api/v1/chat/completions";
+  static final String apiKey = dotenv.env['API_KEY'] ?? '';
+  static final String endpoint = dotenv.env['ENDPOINT'] ?? '';
 
   static Future<Map<String, String>> getAIMove(
     String fen,
